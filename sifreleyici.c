@@ -76,7 +76,7 @@ for(k=0;k<1001;k++){
           hey[k]=((crypto[k%81]+hey[k])%93)+33;          
                                     }    
                     }
-//her mesajin basina sifreleme sayýsýný cozebilmek icin sifrelenmis bir unlem koydum
+//her mesajin basina sifreleme sayÃ½sÃ½nÃ½ cozebilmek icin sifrelenmis bir unlem koydum
 char c=33+(crypto[0]/16)*5;
 printf("%c",c);
 printf("%s",hey); 
